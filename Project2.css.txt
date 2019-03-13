@@ -1,0 +1,69 @@
+body{
+    margin: 1rem 4rem 1rem;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif; 
+}
+.menuscript{
+    margin: 2rem 9rem 2rem;
+    padding: 2rem 3rem 3rem 10rem;
+}
+.box_container{
+    display: -webkit-box;
+    width: 100%;
+}
+.lightblue {
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-bottom-left-radius: 40px;
+    height: 100px;
+    background-color: #158cc4bf;
+    margin: 1px 0rem 1px;
+    width:20%;
+    padding: 0px 1px;
+}
+.blue {
+    font-size: .8rem;
+    text-align: left;
+    color: white;
+    border-top-right-radius: 40px;
+    height: 100px;
+    background-color: #0d74a3bf;
+    margin: 1px 0rem 1px;
+    padding: 0px 1px;
+    width:50%;
+}
+.safron {
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-bottom-left-radius: 40px;
+    height: 100px;
+    background-color: #f77c2bbf;
+    margin: 1px 0rem 1px 4rem;
+    width:20%;
+    padding: 0px 1px;
+}
+.orange {
+    font-size: .8rem;
+    text-align: left;
+    color: white;
+    font-weight: 100;
+    border-top-right-radius: 40px;
+    height: 100px;
+    background-color: #f54510e8;
+    margin: 1px 0rem 1px;
+    padding: 0px 1px;
+    width:50%;
+}
+h3{
+    padding:1rem;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-size: 23px;
+    font-weight: bold;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>exercise1</title>
+        <link rel="stylesheet" href="Project2.css">
+    </head>
+    <body>
+        <div class="menuscript">
+        <h1 align=left>WHY EVERY DENTAL PRACTICE NEEDS A WEBSITE</h1>
+        <div class="box_container">
+                <div class="lightblue">46%</div>
+                <div class="blue">
+                <h3>  of patients say a website's design is their biggest criterion for determinig the credibility of a practice.</h3></div>
+        </div>
+        <div class="box_container">
+                <div class="safron">88%</div>
+                <div class="orange">
+                <h3>increase in conversion by placing videos on landing pages.</h3></div>
+        </div>
+        <div class="box_container">
+                <div class="lightblue">89%</div>
+                <div class="blue">
+                <h3>of potential patients find testimonials to be the most effective aspect of content marketing.</h3></div>
+        </div>
+        <div class="box_container">
+                <div class="safron">76%</div>
+                <div class="orange">
+                <h3>of potential patience use hospital and private practice websites for research.</h3></div>
+        </div>
+        <div class="box_container">
+                <div class="lightblue">81%</div>
+                <div class="blue">
+                <h3>of patients consider a practice with an active online presence to be more cutting edge.</h3></div>
+                </div>
+    </div>
+    </body>
+</html>
