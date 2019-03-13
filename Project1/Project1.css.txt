@@ -1,0 +1,116 @@
+body{
+    background:lightyellow;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+header{
+    border:3px solid red;
+    border-radius: 10px;
+    padding-top: 3px;
+    height: 100px;
+    margin-left:2px; 
+}
+nav{
+    float: right;
+    margin-top:-40px;
+    margin-right:2rem;
+    border:solid 3px blue;
+    border-radius: 10px;
+    padding: 2px;
+    word-spacing: 19px;
+}
+nav a{
+    text-decoration: none;
+    padding:4px; 
+}   
+.bridge_image img{
+    border:3px solid yellow;
+    width: 100%;
+    max-height:230px; 
+    border-radius:10px; 
+}
+section{
+    border:2px solid rgb(58, 128, 0);
+    border-radius: 10px;
+    display:inline-flex;
+}
+article{
+    border:3px solid purple;
+    border-radius:10px; 
+    width:70%; 
+    padding:0px; 
+}
+aside{
+    border:3px solid rgb(107, 34, 107);
+    border-radius:10px; 
+    width:30%;
+    background:#696969;
+}
+figure{
+    margin: 10px 0 0 0;
+}
+button {
+    float: right;
+    background: #B22222;
+    border: none;
+    position: absolute;
+    right: 30px;
+    bottom: 17px;
+}
+figure div {
+    position: absolute;
+    margin: 20px 0 0px 0px;
+    background: rgba(1,1,1,.4);
+    padding: 0px 61rem 0px 29px;
+    left: 10px;
+    color: white;
+    top: 287px;
+}
+footer{
+    border:3px solid dodgerblue;
+    border-radius:10px; 
+    display:inline-flex;
+    width:100%;
+    max-height: 20%;
+}
+.first_div{
+    border:3px solid black;
+    border-radius:10px; 
+    width:30%;
+}
+.second_div{
+    border:3px solid black;
+    border-radius:10px; 
+    width:30%
+}
+.third_div{
+    border:3px solid black;
+    border-radius:10px; 
+    width:30%
+}
+.image_div{
+    width:50px ;
+    height:50px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#abc{
+    width:100%;
+    margin:0px;
+}
+.author_class p{
+    margin left:10px;
+}
+#lists{
+    column-count: 2;
+}
+aside img{
+    position: relative;
+    right: -85px;
+}
+ul li{
+    color: red;
+}
+.wonders{
+    width:300px ;
+    margin-left: 40px;
+}

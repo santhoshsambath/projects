@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web page</title>
+    <link rel="stylesheet" type="text/css" href="Project1.css">
+</head>
+<body>
+<header>   
+    <h2>Zozor</h2>
+    <h4>Travel diaries</h4>
+    <nav>
+        <a href="">HOME</a>
+        <a href="">BLOG</a>
+        <a href="">RESUME</a>
+        <a href="">CONTACT</a>
+    </nav>    
+</header>    
+
+<figure class="bridge_image">
+    <img src="image1.jpg">
+    <div >       
+        <p>Reflection on my holidays in the united states</p>
+        <button type="button">See article</button>
+    </div>
+</figure>
+
+<section>
+<article class="article_class">
+    <h1>I'M A GREAT TRAVELLER</h1>
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce est justo, tempor at suscipit suscipit, fringilla nec sapien.
+    Vivamus vitae sollicitudin nibh, in porta metus. Suspendisse cursus sed enim at porta. Praesent volutpat tellus et odio posuere,
+    ac porttitor lorem vulputate. Cras nec finibus mauris. Duis at ultricies nunc. Donec ipsum ipsum, iaculis et commodo non, sollicitudin et turpis.
+    In sit amet purus risus. Aliquam auctor vitae orci ut congue.Curabitur convallis tortor augue, vehicula facilisis mauris aliquet ac.Donec vel arcu scelerisque, pharetra velit id, consectetur quam.
+    <p>Donec ac mollis arcu. Etiam vel ligula tristique, accumsan ligula maximus, ullamcorper mi. Proin nisl quam, convallis nec luctus vel, pharetra a nulla. 
+    In sit amet dolor porta, mattis tortor sed, luctus massa. Mauris interdum venenatis orci in lobortis. Nam scelerisque iaculis elementum. 
+    Pellentesque tempus eget lectus in eleifend. Quisque eget arcu imperdiet, finibus nibh sed, egestas justo.
+    Proin sit amet lacus efficitur, tempor nunc quis, ultrices purus. Proin a consectetur libero. Nulla a nibh et mauris interdum hendrerit.Donec id sagittis ex.</p>
+    <p>Praesent tempus, turpis id elementum fermentum, erat lectus malesuada neque, id pellentesque purus sem et dui. Donec consectetur et lorem a fringilla.Nam ante elit, cursus et mollis vel, pretium quis ante. 
+    Donec et tellus vel felis iaculis accumsan. Duis consequat quis velit ac placerat. Vivamus feugiat enim sed sapien ornare, non facilisis metus placerat. Nunc mollis, lorem nec lacinia pharetra, augue ante egestas tellus, at placerat est ipsum eget magna. Phasellus imperdiet metus erat, ac laoreet nibh malesuada vitae. In lorem lectus, auctor eget magna eu, dignissim pretium tortor. Integer sagittis imperdiet 
+    enim sit amet aliquam. Nulla condimentum mauris justo, rutrum convallis justo maximus vitae. Donec ultrices rutrum scelerisque. Integer vel est eget elit mollis consectetur. Phasellus sed lectus sem. Integer dapibus egestas velit, in ornare diam mollis dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+</article>
+<aside>
+    <h2 align="center">ABOUT THE AUTHOR</h2>
+    <img src="logo.jpg">
+    <div class="author_class">
+        <p>
+                Let me introduce myself: My name's Zozor. I was born on 23 November 2005.</p>
+        <p>A bit meager, is it not? This is why I've now decided to write my biography to let my readers know who I really am.</p>
+            <img class="image_div" src="fb.jpg" >
+            <img class="image_div" src="twitterlogo.jpg">
+            <img class="image_div" src="vimeologo.jpg">
+            <img class="image_div" src="rsslogo.jpg">
+</aside>
+</div>
+</section>
+<footer>
+    <div class="first_div">
+        <h2>MY LAST TWEET</h2>
+        <p>Hai....hello</p>
+        <p id="date"></p>
+        <script>
+        document.getElementById("date").innerHTML = Date();        
+        </script>
+    </div>    
+    <div class="second_div">    
+      <h2>MY PICTURES</h2>
+      <img class="wonders" src="7wonders.jpg">
+    </div>
+      <div class="third_div">
+          <h2>MY FRIENDS</h2>
+          <ul id="lists">
+              <li>Ram</li>
+              <li>Muthu</li>
+              <li>Arun</li>
+              <li>Gopi</li>
+              <li>sam</li>
+              <li>Senthil</li>
+              <li>Kishore</li>
+              <li>Gowdham</li>
+          </ul>    
+      </div>
+    </footer>
+</body>
+</html>
