@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="changingimages.css">
+<body>
+<div class="image-container">
+  
+<center>
+        <img class="mySlides" src="tanjore.jpg" onclick="show_next_picture(1)" style="width:400px;height: 300px; ">
+        <img class="mySlides" src="thiruvannamalai.jpg" onclick="show_next_picture(1)"style="width:400px; height: 300px;">
+        <img class="mySlides" src="madurai.jpg" onclick="show_next_picture(1)"style="width:400px;height: 300px;">
+        <img class="mySlides" src="mylapore.jpg" onclick="show_next_picture(1)"style="width:400px;height: 300px;">
+        <h1 id="caption"></h1>
+    <button onclick="decreaseWidth(-1) ">-</button>
+    <button onclick="show_previous_picture(-1)">Previous</button>
+    <button onclick="show_next_picture(1)">Next</button>
+    <button onclick="increaseWidth(1)">+</button>
+</center>
+</div>
+<script src="changingimages.js"></script>
+</body>
+</html>
