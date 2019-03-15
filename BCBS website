@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BCBS</title>
+<link rel="stylesheet" href="Bcbs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <div class="header_class">
+            <div class="logo">
+        <img  class="logo_bcbs" src="bcbs.jpg" width="310px" height="100px">
+        <p>Horizon Blue Cross Blue Shield of New Jersey</p>
+            </div>
+        <div class="header_mid">
+                <img  class="header_pic" src="hospital-finder.jpg" width="300px" height="80px">
+        </div>
+            <div class="button_class">
+                <button type="button" id="clickable" ><a href="">How to Use the Doctor & Hospital Finder</a></button>
+                <nav>
+                <ul>
+                    <li><a href="">HorizonBlue.com <span>English|</span></a></li>
+                    <li><a href="">En Español</a></li>
+                </ul>
+            </nav>
+            </div>
+    </div>        
+    </header>
+<section>
+    <div class="section_class"> 
+        <img class="image_class" src="bg-image.jpg" alt="main picture" width="100%" height="50%">
+    <div class="transparent">    
+        <h1>We've Got You Covered.</h1>
+        <table class="tabledata" cellspacing=30px>
+            <tr>
+        <td><b>What are you looking for?</b><br><select class="select_doctor">
+                <option selected>Doctors</option>
+                <option>Dentist</option>
+                <option>Hospitals</option>
+                <option>Other Healthcare Services</option>
+                <option>Doctors Outside of New Jersey</option>
+                <option>Dentist Outside of New Jersey</option>
+        </select><br>
+        </td>
+        <td><b>Choose a Plan to Start</b><br><select class="select_doctor">
+                    <option selected>You MUST Select a Plan</option>
+                    <option >Horizon Medicase Blue</option>
+                    <option >Horizon Medicase Blue Access</option>
+                    <option >Horizon Medicase Blue Access Group</option>
+                    <option >Horizon Medicase Blue Advantage</option>
+                    <option >Horizon Medicase Blue Choice Group</option>
+                  </select><br>
+         </td>           
+        <td><b>Zip Code | City, State</b><br><input type="text" name="LastName" ><br> <br>     
+         </td>   
+            </tr>      
+            <tr>
+                <td><b>Specialty</b><br><select class="select_doctor">
+                        <option >Select Up to 5 Specialties</option>                        
+                </select><br>
+                </td>
+        <td><b>Doctor's Last Name</b><br><input type="text" name="LastName" ><br></td>
+    <td><b>Doctor Affiliations</b><br><input type="text" name="Affiliation" placeholder="Group Affiliation or Hospital Affiliation"><br></td>
+            
+        <td><button type="button" class="search_button" ><i class="fa fa-search"></i>Search</button></td>
+    </tr>     
+    </table>  
+    </div>                                                                                                                    
+    </div>
+</section>
+</body>
+</html>
+===================================================================
+body{
+    color:	#006699;
+    height: 100%;
+    width: 99%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0 0 0 0;
+    border:0 0 0 0;
+}
+p{
+    text-decoration-line: overline;
+    width: inherit;
+}
+span{
+    color: black;
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+}
+#clickable{
+background: white;
+
+height: 35px;
+width: 314px;
+float: right;
+margin-top: -179px;
+padding: 0px;
+}
+.header_class{
+    height: 50%;
+    padding: 0px;
+    border:0px;
+}
+a{
+    text-decoration: none;
+    color: #006699;
+}
+.search_button{
+    color: white;
+    background: #FF8C00;
+    border:none;
+    padding: 5px;
+}
+header ul{
+    margin:0;
+    padding: 0;
+}
+header li{
+    float: left;
+}
+header nav{
+    float: right;
+    margin-top: -66px;
+    position: relative;
+    top: -19px;
+}
+select:hover{
+    color: dodgerblue;;
+}
+header h2{
+    margin:0;
+    padding: 0;
+}
+.tabledata{
+    width: 80%;
+    margin-left: 30px;
+}
+h1,h2{
+    color: #00499a;
+}
+.image_class{
+    margin-top: -9px;
+}
+.transparent{
+    margin-top: -443px;
+}
+h1{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_pic{
+    margin-left: 350px;
+}
+header{
+    padding: 0px;
+    border:0px;
+}
+.header_mid{
+margin-top: -37px;
+position: relative;
+top: -103px;
+}
+.section_class{
+    margin-top:-50px;
+}
+input,select{
+    width:250px; 
+}
